@@ -73,8 +73,6 @@ const Main = ({ room }) => {
     setIsAtBottom(scrollTop + clientHeight >= scrollHeight - 200);
   };
 
-  console.log(messages[0].author);
-
   return (
     <main
       ref={containerRef}
